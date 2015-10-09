@@ -1,6 +1,14 @@
-<h1>Reza's Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="#">Reza's</a>
-  sample application.
-</p>
+<div class="center jumbotron">
+  <h1>Welcome to Reza's Experimental App</h1>
+  
+  <h2>
+    This is the home page for the
+    <a href="#">Reza's</a>
+    Experimental app.
+  </h2>
+  
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("dolphin-clip-art.png", alt: "Dolphin logo"),
+            'http://images-pictures.org/top-10-dolphin-clip-art-photo-so-cute.html' %>
